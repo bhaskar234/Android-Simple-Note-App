@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:gravity="left" 
+    android:background="#fffaaa"
+    android:orientation="vertical" >"
+
+    <TextView
+        android:id="@+id/hm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        tools:context=".MainActivity" 
+        android:textSize="30sp"
+        android:textColor="#f00"/>
+    
+
+    
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_input_title"/>"
+     <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_input_content"/>"
+    <Button
+        android:id="@+id/sbmt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />"
+   
+   
+        
+
+</LinearLayout>

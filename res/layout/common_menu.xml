@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_note" android:alphabeticShortcut="a"
+        android:title="New Note" android:orderInCategory="1" />
+    <item android:id="@+id/all_notes" android:alphabeticShortcut="b"
+        android:title="All Notes" android:orderInCategory="2">
+    </item>
+     
+</menu>
